@@ -62,4 +62,4 @@ Computer Science undergraduate at the University of Colombo School of Computing 
 </p>
 
 ---
-<p align="center"><i>⭐️ From <a href="https://github.com/DimathJayasinghe">DimathJayasinghe</a></i></p>
+

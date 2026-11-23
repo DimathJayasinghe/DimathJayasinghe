@@ -1,65 +1,111 @@
-<p align="center">
-  <a href="https://github.com/DimathJayasinghe">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=5b6573&fontSize=54&height=90&width=602&text=Hi!%2C%20I'm%20Dimath!" alt="Hi!, I&#39;m Dimath!" />
-  </a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero.svg">
+  <img src="assets/light/hero.svg" width="100%" alt="Dimath Jayasinghe. Backend and systems engineer. Focus: networking, concurrency, system design. Stack: C, C++, Rust, TypeScript, PostgreSQL. CS undergraduate at UCSC, University of Colombo. Looking for a software engineering internship.">
+</picture>
+
+### Dimath Jayasinghe · Backend & Systems Engineer
+
+I build backend services and low-level systems: network servers, real-time messaging, APIs and the infrastructure under them. I'm most at home in **C, C++ and Rust**, and I ship full-stack products in **TypeScript** when the job needs it. I'm a Computer Science undergraduate at the **University of Colombo School of Computing (UCSC)**, currently **looking for a software engineering internship** in backend, systems or full-stack.
+
+| | |
+| :--- | :--- |
+| **Looking for** | Software Engineering Internship · Backend · Systems / Infrastructure · Full-Stack |
+| **Strengths** | System design · networking & WebSockets · concurrency · API design · real-time systems · testing & fuzzing |
+| **Languages** | C · C++ · Rust · TypeScript · JavaScript · Python · Java · C# · PHP · Dart |
+| **Backend & data** | Node.js · NestJS · Express · Spring · Flask · PostgreSQL · MySQL · MongoDB · Redis · Prisma · BullMQ |
+| **Infra** | Docker · Nginx · Linux · Kubernetes · Cloudflare · GitHub Actions · Vercel |
+| **Education** | Computer Science undergraduate, UCSC, University of Colombo |
+| **Location** | Sri Lanka (UTC+5:30) |
+| **Contact** | [dimathjayasinghe@gmail.com](mailto:dimathjayasinghe@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dimath-jayasinghe/) |
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/sec-systems.svg">
+  <img src="assets/light/sec-systems.svg" width="100%" alt="01 Systems">
+</picture>
+
+<a href="https://github.com/DimathJayasinghe/wsrv"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-wsrv.svg"><img src="assets/light/p-wsrv.svg" width="100%" alt="wsrv: from-scratch RFC 6455 WebSocket server in C++23 with a stable C ABI and PHP bindings. Passes all 517 Autobahn testsuite cases; fuzzed and sanitizer-clean."></picture></a>
+
+<a href="https://github.com/Serendeva"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-serendeva.svg"><img src="assets/light/p-serendeva.svg" width="100%" alt="Serendeva: AI wardrobe and fashion intelligence platform. TypeScript monorepo with NestJS API, Next.js B2B portal, Expo mobile app, plus a Python AI worker. Top contributor."></picture></a>
+
+<a href="https://github.com/DimathJayasinghe/poker-credits"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-poker.svg"><img src="assets/light/p-poker.svg" width="100%" alt="poker-credits: offline Texas Hold'em chips app with a Flutter UI, Rust engine and bots, and a LAN game server. On the Microsoft Store."></picture></a>
+
+<a href="https://github.com/DimathJayasinghe/LMS"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-lms.svg"><img src="assets/light/p-lms.svg" width="100%" alt="LMS: learning management system for about 1,200 students. Next.js, Express, PostgreSQL, Redis and BullMQ on one VPS with Docker Compose."></picture></a>
+
+<a href="https://github.com/DimathJayasinghe/GRADLINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-gradlink.svg"><img src="assets/light/p-gradlink.svg" width="100%" alt="GRADLINK: UCSC alumni and student networking platform built from scratch in PHP and MySQL by a team of four. Top contributor."></picture></a>
+
+<details>
+<summary><b>Plain-text project summary</b></summary>
+
+- **[wsrv](https://github.com/DimathJayasinghe/wsrv)** (C++23, open source): RFC 6455 WebSocket server written from scratch, with no Boost or Asio. It has a sans-I/O protocol core, epoll event loops, TLS, permessage-deflate, pub/sub and Prometheus metrics. Other languages reach it through a stable C ABI, and PHP gets bindings via FFI and the `wsrvd` sidecar. It passes all 517 Autobahn testsuite cases and is tested with fuzzing and ASan, UBSan and TSan.
+- **[Serendeva](https://github.com/Serendeva)** (TypeScript, private org repo): AI-powered wardrobe and fashion intelligence platform. A pnpm and Turborepo monorepo with a NestJS API, a Next.js B2B portal, an Expo mobile app, PostgreSQL with Prisma, and Redis, plus a separate Python AI worker. I'm the top contributor.
+- **[poker-credits](https://github.com/DimathJayasinghe/poker-credits)** (Dart, Rust): digital chips and side pots for in-person Texas Hold'em. The table device runs a LAN game server, so no internet is needed. A Rust engine handles rules, pots and computer players. Published on the Microsoft Store.
+- **[LMS](https://github.com/DimathJayasinghe/LMS)** (TypeScript): learning management system for a tuition institute with about 1,200 students and five roles. Next.js, Express, PostgreSQL, Redis and BullMQ, deployed on one VPS with Docker Compose. Results publish over SSE, payments are idempotent, and it is multi-tenant ready.
+- **[GRADLINK](https://github.com/DimathJayasinghe/GRADLINK)** (PHP, MySQL): UCSC alumni and student networking platform with role-based access, groups, mentoring and messaging. Built from scratch without frameworks by a team of four. I'm the top contributor.
+
+</details>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/sec-stack.svg">
+  <img src="assets/light/sec-stack.svg" width="100%" alt="02 Stack">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg">
+  <img src="assets/light/stack.svg" width="100%" alt="Metal: C, C++, Rust. Languages: TypeScript, JavaScript, Python, Java, C#, PHP, Dart. Backend: Node.js, NestJS, Express, Spring, Flask. Data: PostgreSQL, MySQL, MongoDB, Redis, Prisma, BullMQ. Infra: Docker, Nginx, Linux, Kubernetes, Cloudflare, GitHub Actions. Frontend: Next.js, React, Flutter, Expo, Tailwind.">
+</picture>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/sec-lab.svg">
+  <img src="assets/light/sec-lab.svg" width="100%" alt="03 Lab">
+</picture>
+
+| repo | what it is | lang |
+| :--- | :--- | :--- |
+| [`wsrv-chat-demo`](https://github.com/DimathJayasinghe/wsrv-chat-demo) | chat app with accounts and live messages, running on wsrv | PHP |
+| [`WebSocket-Implementation`](https://github.com/DimathJayasinghe/WebSocket-Implementation) | WebSockets built up from the protocol, including fragmented frames | JS |
+| [`WebSocket-server-from-scratch`](https://github.com/DimathJayasinghe/WebSocket-server-from-scratch) | my first hand-rolled WebSocket server, where wsrv started | JS |
+| [`Client-server-pub-sub`](https://github.com/DimathJayasinghe/Client-server-pub-sub) | client/server publish-subscribe messaging | Python |
+| [`my_Physics_Engine1`](https://github.com/DimathJayasinghe/my_Physics_Engine1) | tiny physics engine for projectile trajectories | C |
+| [`FloodFill-Algorithm`](https://github.com/DimathJayasinghe/FloodFill-Algorithm) | flood fill, implemented and visualised | C++ |
+| [`Freshers`](https://github.com/DimathJayasinghe/Freshers) | live-updating scoreboard for the UCSC Freshers' meet | TS |
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/sec-stats.svg">
+  <img src="assets/light/sec-stats.svg" width="100%" alt="04 Stats">
+</picture>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=1000&color=e3b341&center=true&vCenter=true&width=505&height=44&lines=CS%20Undergrad%40%20UCSC;Turning%20coffee%20into%20clean%20codes" alt="Typing headlines" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=DimathJayasinghe&show_icons=true&hide_border=false&bg_color=10161D&border_color=30363D&title_color=E6EDF3&icon_color=4C8DFF&text_color=8B949E&border_radius=14">
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=DimathJayasinghe&show_icons=true&bg_color=FFFFFF&border_color=D0D7DE&title_color=1F2328&icon_color=0969DA&text_color=59636E&border_radius=14" alt="GitHub stats for DimathJayasinghe">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=DimathJayasinghe&layout=compact&langs_count=8&bg_color=10161D&border_color=30363D&title_color=E6EDF3&text_color=8B949E&border_radius=14">
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DimathJayasinghe&layout=compact&langs_count=8&bg_color=FFFFFF&border_color=D0D7DE&title_color=1F2328&text_color=59636E&border_radius=14" alt="Most used languages">
+  </picture>
 </p>
 
-### 🚀 About Me
+<br/>
 
-Computer Science undergraduate at the University of Colombo School of Computing and currently working as a Software Engineering Intern. Interested in Software Engineering, AI, and Data Science. I enjoy building practical projects, exploring new technologies, and continuously improving my skills through real world experience.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/sec-contact.svg">
+  <img src="assets/light/sec-contact.svg" width="100%" alt="05 Contact">
+</picture>
 
-### 🛠️ Tech Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=black" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
-  <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white" alt="DigitalOcean" />
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=vscodium&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
-  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack" />
+<p>
+  <a href="mailto:dimathjayasinghe@gmail.com"><img src="https://img.shields.io/badge/Email-dimathjayasinghe%40gmail.com-4C8DFF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/dimath-jayasinghe/"><img src="https://img.shields.io/badge/LinkedIn-dimath--jayasinghe-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
-### 🔗 Connect With Me
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/dimath-jayasinghe/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-</p>
-
----
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg">
+  <img src="assets/light/footer.svg" width="100%" alt="Thanks for reading.">
+</picture>

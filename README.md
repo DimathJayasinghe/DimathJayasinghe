@@ -5,7 +5,7 @@
 
 ### Dimath Jayasinghe · Backend & Systems Engineer
 
-I build backend services and low-level systems: network servers, real-time messaging, APIs and the infrastructure under them. I'm most at home in **C, C++ and Rust**, and I ship full-stack products in **TypeScript** when the job needs it. I'm a Computer Science undergraduate at the **University of Colombo School of Computing (UCSC)**, currently **looking for a software engineering internship** in backend, systems or full-stack.
+I build backend services and low-level systems: network servers, real-time messaging, APIs and the infrastructure under them. I'm a Computer Science undergraduate at the **University of Colombo School of Computing (UCSC)**, currently **looking for a software engineering internship** in backend, systems or full-stack.
 
 | | |
 | :--- | :--- |

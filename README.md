@@ -1,111 +1,82 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero.svg">
-  <img src="assets/light/hero.svg" width="100%" alt="Dimath Jayasinghe. Backend and systems engineer. Focus: networking, concurrency, system design. Stack: C, C++, Rust, TypeScript, PostgreSQL. CS undergraduate at UCSC, University of Colombo. Looking for a software engineering internship.">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="images/profile-dark-mobile.png">
+  <source media="(max-width: 600px)" srcset="images/profile-light-mobile.png">
+  <source media="(prefers-color-scheme: dark)" srcset="images/profile-dark.png">
+  <img src="images/profile-light.png" width="100%" alt="Dimath Jayasinghe. Backend and systems engineer. Computer Science undergraduate at UCSC, University of Colombo, Sri Lanka.">
 </picture>
 
-### Dimath Jayasinghe · Backend & Systems Engineer
 
-I build backend services and low-level systems: network servers, real-time messaging, APIs and the infrastructure under them. I'm a Computer Science undergraduate at the **University of Colombo School of Computing (UCSC)**, currently **looking for a software engineering internship** in backend, systems or full-stack.
+I build backend services, network servers and real-time applications.
 
-| | |
-| :--- | :--- |
-| **Looking for** | Software Engineering Internship · Backend · Systems / Infrastructure · Full-Stack |
-| **Strengths** | System design · networking & WebSockets · concurrency · API design · real-time systems · testing & fuzzing |
-| **Languages** | C · C++ · Rust · TypeScript · JavaScript · Python · Java · C# · PHP · Dart |
-| **Backend & data** | Node.js · NestJS · Express · Spring · Flask · PostgreSQL · MySQL · MongoDB · Redis · Prisma · BullMQ |
-| **Infra** | Docker · Nginx · Linux · Kubernetes · Cloudflare · GitHub Actions · Vercel |
-| **Education** | Computer Science undergraduate, UCSC, University of Colombo |
-| **Location** | Sri Lanka (UTC+5:30) |
-| **Contact** | [dimathjayasinghe@gmail.com](mailto:dimathjayasinghe@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dimath-jayasinghe/) |
+**Open to software engineering internships** in backend, systems and full-stack.
 
-<br/>
+[Email](mailto:dimathjayasinghe@gmail.com) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/dimath-jayasinghe/)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/sec-systems.svg">
-  <img src="assets/light/sec-systems.svg" width="100%" alt="01 Systems">
-</picture>
+## Selected projects
 
-<a href="https://github.com/DimathJayasinghe/wsrv"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-wsrv.svg"><img src="assets/light/p-wsrv.svg" width="100%" alt="wsrv: from-scratch RFC 6455 WebSocket server in C++23 with a stable C ABI and PHP bindings. Passes all 517 Autobahn testsuite cases; fuzzed and sanitizer-clean."></picture></a>
+### [wsrv](https://github.com/DimathJayasinghe/wsrv)
 
-<a href="https://github.com/Serendeva"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-serendeva.svg"><img src="assets/light/p-serendeva.svg" width="100%" alt="Serendeva: AI wardrobe and fashion intelligence platform. TypeScript monorepo with NestJS API, Next.js B2B portal, Expo mobile app, plus a Python AI worker. Top contributor."></picture></a>
+A WebSocket server built from scratch in **C++23**, with a PHP client. Passes all **517 Autobahn protocol tests**.
 
-<a href="https://github.com/DimathJayasinghe/poker-credits"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-poker.svg"><img src="assets/light/p-poker.svg" width="100%" alt="poker-credits: offline Texas Hold'em chips app with a Flutter UI, Rust engine and bots, and a LAN game server. On the Microsoft Store."></picture></a>
+[Documentation](https://github.com/DimathJayasinghe/wsrv#documentation) &nbsp; / &nbsp; [Chat demo](https://github.com/DimathJayasinghe/wsrv-chat-demo)
 
-<a href="https://github.com/DimathJayasinghe/LMS"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-lms.svg"><img src="assets/light/p-lms.svg" width="100%" alt="LMS: learning management system for about 1,200 students. Next.js, Express, PostgreSQL, Redis and BullMQ on one VPS with Docker Compose."></picture></a>
+### [Serendeva](https://github.com/Serendeva)
 
-<a href="https://github.com/DimathJayasinghe/GRADLINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-gradlink.svg"><img src="assets/light/p-gradlink.svg" width="100%" alt="GRADLINK: UCSC alumni and student networking platform built from scratch in PHP and MySQL by a team of four. Top contributor."></picture></a>
+An AI wardrobe platform for web and mobile, built with **NestJS, Next.js and Expo**. Top contributor in a private team repository.
 
-<details>
-<summary><b>Plain-text project summary</b></summary>
+### [poker-credits](https://github.com/DimathJayasinghe/poker-credits)
 
-- **[wsrv](https://github.com/DimathJayasinghe/wsrv)** (C++23, open source): RFC 6455 WebSocket server written from scratch, with no Boost or Asio. It has a sans-I/O protocol core, epoll event loops, TLS, permessage-deflate, pub/sub and Prometheus metrics. Other languages reach it through a stable C ABI, and PHP gets bindings via FFI and the `wsrvd` sidecar. It passes all 517 Autobahn testsuite cases and is tested with fuzzing and ASan, UBSan and TSan.
-- **[Serendeva](https://github.com/Serendeva)** (TypeScript, private org repo): AI-powered wardrobe and fashion intelligence platform. A pnpm and Turborepo monorepo with a NestJS API, a Next.js B2B portal, an Expo mobile app, PostgreSQL with Prisma, and Redis, plus a separate Python AI worker. I'm the top contributor.
-- **[poker-credits](https://github.com/DimathJayasinghe/poker-credits)** (Dart, Rust): digital chips and side pots for in-person Texas Hold'em. The table device runs a LAN game server, so no internet is needed. A Rust engine handles rules, pots and computer players. Published on the Microsoft Store.
-- **[LMS](https://github.com/DimathJayasinghe/LMS)** (TypeScript): learning management system for a tuition institute with about 1,200 students and five roles. Next.js, Express, PostgreSQL, Redis and BullMQ, deployed on one VPS with Docker Compose. Results publish over SSE, payments are idempotent, and it is multi-tenant ready.
-- **[GRADLINK](https://github.com/DimathJayasinghe/GRADLINK)** (PHP, MySQL): UCSC alumni and student networking platform with role-based access, groups, mentoring and messaging. Built from scratch without frameworks by a team of four. I'm the top contributor.
+An offline Texas Hold'em chips app with a **Rust engine and Flutter UI**. Available on the Microsoft Store.
 
-</details>
+### [Academic LMS](https://github.com/DimathJayasinghe/LMS)
 
-<br/>
+Lessons, exams and payments for about **1,200 students**. Built with Next.js and Express, with backend infrastructure on one VPS.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/sec-stack.svg">
-  <img src="assets/light/sec-stack.svg" width="100%" alt="02 Stack">
-</picture>
+### [GRADLINK](https://github.com/DimathJayasinghe/GRADLINK)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg">
-  <img src="assets/light/stack.svg" width="100%" alt="Metal: C, C++, Rust. Languages: TypeScript, JavaScript, Python, Java, C#, PHP, Dart. Backend: Node.js, NestJS, Express, Spring, Flask. Data: PostgreSQL, MySQL, MongoDB, Redis, Prisma, BullMQ. Infra: Docker, Nginx, Linux, Kubernetes, Cloudflare, GitHub Actions. Frontend: Next.js, React, Flutter, Expo, Tailwind.">
-</picture>
+A UCSC student and alumni network for mentoring and messaging. Built in **PHP and MySQL** by a team of four.
 
-<br/>
+## Tech stack
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/sec-lab.svg">
-  <img src="assets/light/sec-lab.svg" width="100%" alt="03 Lab">
-</picture>
-
-| repo | what it is | lang |
-| :--- | :--- | :--- |
-| [`wsrv-chat-demo`](https://github.com/DimathJayasinghe/wsrv-chat-demo) | chat app with accounts and live messages, running on wsrv | PHP |
-| [`WebSocket-Implementation`](https://github.com/DimathJayasinghe/WebSocket-Implementation) | WebSockets built up from the protocol, including fragmented frames | JS |
-| [`WebSocket-server-from-scratch`](https://github.com/DimathJayasinghe/WebSocket-server-from-scratch) | my first hand-rolled WebSocket server, where wsrv started | JS |
-| [`Client-server-pub-sub`](https://github.com/DimathJayasinghe/Client-server-pub-sub) | client/server publish-subscribe messaging | Python |
-| [`my_Physics_Engine1`](https://github.com/DimathJayasinghe/my_Physics_Engine1) | tiny physics engine for projectile trajectories | C |
-| [`FloodFill-Algorithm`](https://github.com/DimathJayasinghe/FloodFill-Algorithm) | flood fill, implemented and visualised | C++ |
-| [`Freshers`](https://github.com/DimathJayasinghe/Freshers) | live-updating scoreboard for the UCSC Freshers' meet | TS |
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/sec-stats.svg">
-  <img src="assets/light/sec-stats.svg" width="100%" alt="04 Stats">
-</picture>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=DimathJayasinghe&show_icons=true&hide_border=false&bg_color=10161D&border_color=30363D&title_color=E6EDF3&icon_color=4C8DFF&text_color=8B949E&border_radius=14">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=DimathJayasinghe&show_icons=true&bg_color=FFFFFF&border_color=D0D7DE&title_color=1F2328&icon_color=0969DA&text_color=59636E&border_radius=14" alt="GitHub stats for DimathJayasinghe">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=DimathJayasinghe&layout=compact&langs_count=8&bg_color=10161D&border_color=30363D&title_color=E6EDF3&text_color=8B949E&border_radius=14">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DimathJayasinghe&layout=compact&langs_count=8&bg_color=FFFFFF&border_color=D0D7DE&title_color=1F2328&text_color=59636E&border_radius=14" alt="Most used languages">
-  </picture>
-</p>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/sec-contact.svg">
-  <img src="assets/light/sec-contact.svg" width="100%" alt="05 Contact">
-</picture>
-
-<p>
-  <a href="mailto:dimathjayasinghe@gmail.com"><img src="https://img.shields.io/badge/Email-dimathjayasinghe%40gmail.com-4C8DFF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/dimath-jayasinghe/"><img src="https://img.shields.io/badge/LinkedIn-dimath--jayasinghe-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg">
-  <img src="assets/light/footer.svg" width="100%" alt="Thanks for reading.">
-</picture>
+<table>
+<tr>
+<td><b>Systems</b></td>
+<td>
+<img src="images/tech/c.svg" width="30" height="30" alt="C" title="C"> &nbsp;
+<img src="images/tech/cplusplus.svg" width="30" height="30" alt="C++" title="C++"> &nbsp;
+<picture><source media="(prefers-color-scheme: dark)" srcset="images/tech/rust-dark.svg"><img src="images/tech/rust.svg" width="30" height="30" alt="Rust" title="Rust"></picture> &nbsp;
+<img src="images/tech/linux.svg" width="30" height="30" alt="Linux" title="Linux">
+</td>
+</tr>
+<tr>
+<td><b>Backend</b></td>
+<td>
+<img src="images/tech/typescript.svg" width="30" height="30" alt="TypeScript" title="TypeScript"> &nbsp;
+<img src="images/tech/nodedotjs.svg" width="30" height="30" alt="Node.js" title="Node.js"> &nbsp;
+<img src="images/tech/nestjs.svg" width="30" height="30" alt="NestJS" title="NestJS"> &nbsp;
+<picture><source media="(prefers-color-scheme: dark)" srcset="images/tech/express-dark.svg"><img src="images/tech/express.svg" width="30" height="30" alt="Express" title="Express"></picture> &nbsp;
+<img src="images/tech/python.svg" width="30" height="30" alt="Python" title="Python"> &nbsp;
+<img src="images/tech/php.svg" width="30" height="30" alt="PHP" title="PHP">
+</td>
+</tr>
+<tr>
+<td><b>Data &amp; infra</b></td>
+<td>
+<img src="images/tech/postgresql.svg" width="30" height="30" alt="PostgreSQL" title="PostgreSQL"> &nbsp;
+<img src="images/tech/mysql.svg" width="30" height="30" alt="MySQL" title="MySQL"> &nbsp;
+<img src="images/tech/redis.svg" width="30" height="30" alt="Redis" title="Redis"> &nbsp;
+<img src="images/tech/docker.svg" width="30" height="30" alt="Docker" title="Docker"> &nbsp;
+<img src="images/tech/nginx.svg" width="30" height="30" alt="Nginx" title="Nginx">
+</td>
+</tr>
+<tr>
+<td><b>Web &amp; mobile</b></td>
+<td>
+<img src="images/tech/react.svg" width="30" height="30" alt="React" title="React"> &nbsp;
+<picture><source media="(prefers-color-scheme: dark)" srcset="images/tech/nextdotjs-dark.svg"><img src="images/tech/nextdotjs.svg" width="30" height="30" alt="Next.js" title="Next.js"></picture> &nbsp;
+<img src="images/tech/flutter.svg" width="30" height="30" alt="Flutter" title="Flutter"> &nbsp;
+<picture><source media="(prefers-color-scheme: dark)" srcset="images/tech/expo-dark.svg"><img src="images/tech/expo.svg" width="30" height="30" alt="Expo" title="Expo"></picture> &nbsp;
+<img src="images/tech/dart.svg" width="30" height="30" alt="Dart" title="Dart">
+</td>
+</tr>
+</table>

@@ -1,0 +1,3 @@
+Technology marks: Simple Icons, https://github.com/simple-icons/simple-icons
+Original paths fetched from the project icons directory.
+SVGs have transparent backgrounds. Monochrome marks have light/dark variants.

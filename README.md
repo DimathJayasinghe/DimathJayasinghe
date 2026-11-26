@@ -1,40 +1,23 @@
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="images/profile-dark-mobile.png">
-  <source media="(max-width: 600px)" srcset="images/profile-light-mobile.png">
-  <source media="(prefers-color-scheme: dark)" srcset="images/profile-dark.png">
-  <img src="images/profile-light.png" width="100%" alt="Dimath Jayasinghe. Backend and systems engineer. Computer Science undergraduate at UCSC, University of Colombo, Sri Lanka.">
-</picture>
+# Dimath Jayasinghe
 
+**Backend & systems engineering**<br>
+Computer Science undergraduate at UCSC, University of Colombo.
 
-I build backend services, network servers and real-time applications.
+I build network servers, real-time systems and backend services. **Open to software engineering internships.**
 
-**Open to software engineering internships** in backend, systems and full-stack.
+[Email](mailto:dimathjayasinghe@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dimath-jayasinghe/)
 
-[Email](mailto:dimathjayasinghe@gmail.com) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/dimath-jayasinghe/)
+## Projects
 
-## Selected projects
+**[wsrv](https://github.com/DimathJayasinghe/wsrv)** — A WebSocket server written from scratch in C++23, with a PHP client. Passes all 517 Autobahn protocol tests. [Try the chat demo](https://github.com/DimathJayasinghe/wsrv-chat-demo).
 
-### [wsrv](https://github.com/DimathJayasinghe/wsrv)
+**[Serendeva](https://github.com/Serendeva)** — AI wardrobe platform built with NestJS, Next.js and Expo. Top contributor in a private team repository.
 
-A WebSocket server built from scratch in **C++23**, with a PHP client. Passes all **517 Autobahn protocol tests**.
+**[poker-credits](https://github.com/DimathJayasinghe/poker-credits)** — Offline poker chips app with a Rust engine and Flutter UI. Published on the Microsoft Store.
 
-[Documentation](https://github.com/DimathJayasinghe/wsrv#documentation) &nbsp; / &nbsp; [Chat demo](https://github.com/DimathJayasinghe/wsrv-chat-demo)
+**[Academic LMS](https://github.com/DimathJayasinghe/LMS)** — Lessons, exams and payments for about 1,200 students, with backend infrastructure on one VPS.
 
-### [Serendeva](https://github.com/Serendeva)
-
-An AI wardrobe platform for web and mobile, built with **NestJS, Next.js and Expo**. Top contributor in a private team repository.
-
-### [poker-credits](https://github.com/DimathJayasinghe/poker-credits)
-
-An offline Texas Hold'em chips app with a **Rust engine and Flutter UI**. Available on the Microsoft Store.
-
-### [Academic LMS](https://github.com/DimathJayasinghe/LMS)
-
-Lessons, exams and payments for about **1,200 students**. Built with Next.js and Express, with backend infrastructure on one VPS.
-
-### [GRADLINK](https://github.com/DimathJayasinghe/GRADLINK)
-
-A UCSC student and alumni network for mentoring and messaging. Built in **PHP and MySQL** by a team of four.
+**[GRADLINK](https://github.com/DimathJayasinghe/GRADLINK)** — UCSC alumni network built in PHP and MySQL by a team of four.
 
 ## Tech stack
 

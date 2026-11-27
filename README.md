@@ -11,13 +11,13 @@ I build network servers, real-time systems and backend services. **Open to softw
 
 > **[wsrv](https://github.com/DimathJayasinghe/wsrv)** — A WebSocket server written from scratch in C++23, with a PHP client. Passes all 517 Autobahn protocol tests. 
 
-> **[Serendeva](https://github.com/Serendeva)** — AI wardrobe platform built with NestJS, Next.js and Expo. Top contributor in a private team repository.
+> **[Serendeva](https://github.com/Serendeva)** — AI wardrobe platform built with NestJS, Next.js and Expo. **Top contributor** in a private team repository.
 
-> **[poker-credits](https://github.com/DimathJayasinghe/poker-credits)** — Offline poker chips app with a Rust engine and Flutter UI. Published on the Microsoft Store.
+> **[poker-credits](https://github.com/DimathJayasinghe/poker-credits)** — Offline poker chips app with a Rust engine and Flutter UI. **Published on the Microsoft Store.**
 
 > **[Academic LMS](https://github.com/DimathJayasinghe/LMS)** — Lessons, exams and payments for about 1,200 students, with backend infrastructure on one VPS.
 
-> **[GRADLINK](https://github.com/DimathJayasinghe/GRADLINK)** — UCSC alumni network built in PHP and MySQL by a team of four.
+> **[GRADLINK](https://github.com/DimathJayasinghe/GRADLINK)** — UCSC alumni network built in PHP and MySQL by a team of four (2nd Yr Group Project Led by me).
 
 ## Tech stack
 

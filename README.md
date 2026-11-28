@@ -1,23 +1,35 @@
-# Dimath Jayasinghe
+<img src="images/header.jpg" width="100%" alt="Dimath Jayasinghe. Backend and systems engineering, Computer Science undergraduate at UCSC, Colombo.">
 
-**Backend & systems engineering**<br>
-Computer Science undergraduate at UCSC, University of Colombo.
+Computer Science undergraduate at the University of Colombo School of Computing (UCSC), graduating April 2027.
 
-I build network servers, real-time systems and backend services. **Open to software engineering internships.**
+I build backend services, network servers and real-time systems, and I like going down to the protocol level to understand how things work. **Open to remote software engineering internships and graduate roles.**
 
-[Email](mailto:dimathjayasinghe@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dimath-jayasinghe/)
+[Email](mailto:dimathjayasinghe@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dimath-jayasinghe/) · [HackerRank](https://www.hackerrank.com/profile/Dimath_Jaya)
 
 ## Projects
 
-> **[wsrv](https://github.com/DimathJayasinghe/wsrv)** — A WebSocket server written from scratch in C++23, with a PHP client. Passes all 517 Autobahn protocol tests. 
+> **[wsrv](https://github.com/DimathJayasinghe/wsrv)** &nbsp;<sub>`C++23` `Linux` `TLS` `Docker` `Prometheus`</sub><br>
+> WebSocket server written from scratch in C++23 (RFC 6455), with no Boost, Asio or WebSocket library. TLS, compression, rooms and pub/sub, PHP and JavaScript clients, multi-arch Docker images. **Passes all 517 Autobahn|Testsuite cases** and runs clean under ASan, UBSan and TSan. [Try the chat demo](https://github.com/DimathJayasinghe/wsrv-chat-demo).
 
-> **[Serendeva](https://github.com/Serendeva)** — AI wardrobe platform built with NestJS, Next.js and Expo. **Top contributor** in a private team repository.
+> **[Serendeva](https://github.com/Serendeva)** &nbsp;<sub>`NestJS` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Socket.IO`</sub><br>
+> AI wardrobe and fashion platform, in development by a team of five. I lead the repository and releases and work on the backend: the outfit-suggestion API that sends jobs to a Python AI worker, the real-time notification gateway, rate limiting and idempotent requests. **Top contributor** in the private team repository.
 
-> **[poker-credits](https://github.com/DimathJayasinghe/poker-credits)** — Offline poker chips app with a Rust engine and Flutter UI. **Published on the Microsoft Store.**
+> **[poker-credits](https://github.com/DimathJayasinghe/poker-credits)** &nbsp;<sub>`Rust` `tokio` `axum` `Flutter`</sub><br>
+> Replaces chips at an in-person poker table. A deterministic Rust game engine and a tokio WebSocket server run inside the app, so players join over local Wi-Fi with no internet. **Published on the Microsoft Store.**
 
-> **[Academic LMS](https://github.com/DimathJayasinghe/LMS)** — Lessons, exams and payments for about 1,200 students, with backend infrastructure on one VPS.
+> **[Academic LMS](https://github.com/DimathJayasinghe/LMS)** &nbsp;<sub>`Node.js` `Express` `PostgreSQL` `Redis` `BullMQ` `Next.js`</sub><br>
+> Learning management system for a tuition institute with about 1,200 students, in development. Role-based access, online exams, PayHere payments and protected video, running on a single VPS with Docker Compose.
 
-> **[GRADLINK](https://github.com/DimathJayasinghe/GRADLINK)** — UCSC alumni network built in PHP and MySQL by a team of four (2nd Yr Group Project Led by me).
+> **[GRADLINK](https://github.com/DimathJayasinghe/GRADLINK)** &nbsp;<sub>`PHP` `MySQL`</sub><br>
+> UCSC alumni network built from scratch in PHP and MySQL with custom routing and sessions and no frameworks. 2nd-year group project of four, **led by me**.
+
+
+## Recognition
+
+- HackerRank Gold badge in Problem Solving, 5-star in C++
+- IEEE Xtreme: team ranked in the global top 600
+- Model X (IIT IEEE Student Branch): led the team that placed 1st in Round 1
+- Dean's List, Semester 2, UCSC
 
 ## Tech stack
 
